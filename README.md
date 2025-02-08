@@ -3,6 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Основные мета-теги для SEO -->
+  <meta name="description" content="Become a Solana Validator today and unlock massive monthly income with our exclusive validator program using Node Handler.">
+  <meta name="keywords" content="Solana, Validator, Node Handler, Cryptocurrency, Automated Setup, CLI, KYC, Server Setup">
+  <meta name="author" content="Node Handler Project">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nodehandler.github.io/username.github.io/">
+  
+  <!-- Open Graph для социальных сетей (Facebook, LinkedIn и др.) -->
+  <meta property="og:title" content="Node Handler Project">
+  <meta property="og:description" content="Become a Solana Validator today and unlock massive monthly income with our exclusive validator program using Node Handler.">
+  <meta property="og:url" content="https://nodehandler.github.io/username.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://nodehandler.github.io/username.github.io/assets/og-image.jpg">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Node Handler Project">
+  <meta name="twitter:description" content="Become a Solana Validator today and unlock massive monthly income with our exclusive validator program using Node Handler.">
+  <meta name="twitter:image" content="https://nodehandler.github.io/username.github.io/assets/og-image.jpg">
+  
+  <!-- JSON-LD Разметка для поисковых систем -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Node Handler Project",
+    "url": "https://nodehandler.github.io/username.github.io/",
+    "description": "Become a Solana Validator today and unlock massive monthly income with our exclusive validator program using Node Handler."
+  }
+  </script>
+  
   <title>Node Handler Project</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
   <style>
@@ -69,35 +101,13 @@
       font-weight: 500;
       font-size: 1rem;
     }
-    /* Announcement Section */
-    .announcement {
-      background: #f1f1f1;
-      color: #333;
-      padding: 20px;
-      text-align: center;
-      border-bottom: 2px solid #3498db;
-      font-size: 1rem;
-      margin-top: 70px; /* account for fixed nav */
-    }
-    .announcement a {
-      color: #3498db;
-      font-weight: bold;
-    }
-    .announcement ul {
-      list-style: none;
-      padding: 0;
-      margin: 10px 0;
-    }
-    .announcement li {
-      margin: 5px 0;
-    }
     /* Hero Section */
     .hero {
       background: linear-gradient(135deg, #1e90ff, #3498db);
       color: #fff;
       text-align: center;
       padding: 140px 20px 100px;
-      margin-top: 20px;
+      margin-top: 70px;
       position: relative;
       overflow: hidden;
     }
@@ -221,7 +231,7 @@
       transition: max-height 0.5s ease;
     }
     .instructions-content.open {
-      max-height: 4000px; /* sufficiently large value */
+      max-height: 4000px; /* достаточно большое значение для всех деталей */
     }
     .toggle-btn {
       display: block;
@@ -282,6 +292,7 @@
     .bubble4 { width: 90px; height: 90px; top: 80%; left: 20%; animation-duration: 10s; }
     .bubble5 { width: 60px; height: 60px; top: 40%; left: 85%; animation-duration: 7.5s; }
     .bubble6 { width: 80px; height: 80px; top: 15%; left: 40%; animation-duration: 9.5s; }
+
     /* Animations */
     @keyframes fadeInDown {
       from { opacity: 0; transform: translateY(-20px); }
@@ -337,24 +348,6 @@
     </div>
   </nav>
 
-  <!-- Announcement Section -->
-  <div class="announcement">
-    <p>🚀 <strong>Introducing Node Handler: The Ultimate Bot for Solana Validator Nodes!</strong> 🚀</p>
-    <p>We’re excited to announce the launch of Node Handler, your automated assistant for managing Solana validator nodes! Whether you're new to Solana or a seasoned pro, Node Handler makes it easier than ever to get your node up and running, with 24/7 monitoring, automated setup, and seamless key management.</p>
-    <p>Here’s what Node Handler can do:</p>
-    <ul>
-      <li>✅ <strong>Automated Deployment</strong> - Installs and configures all necessary software for your node.</li>
-      <li>✅ <strong>24/7 Monitoring</strong> - Keeps an eye on your node’s performance and alerts you to any issues.</li>
-      <li>✅ <strong>Simplified Key Management</strong> - Manage your keys securely with ease.</li>
-      <li>✅ <strong>Guided Setup Process</strong> - Walks you through every step from installation to KYC and server provisioning.</li>
-    </ul>
-    <p>Start your Solana validator journey with ease. Let Node Handler take care of the tech side, so you can focus on growing your node!</p>
-    <p>
-      🔗 <a href="https://telegra.ph/How-to-Set-Up-Your-Solana-Validator-Node-A-Step-by-Step-Guide-02-08" target="_blank">Get Started with Node Handler</a><br/>
-      🔗 <a href="http://t.me/node_handler_test_bot" target="_blank">To Node Handler Bot</a>
-    </p>
-  </div>
-
   <!-- Floating Shapes -->
   <div class="floating-shapes">
     <div class="floating-shape" style="width: 60px; height: 60px; top: 10%; left: 5%;"></div>
@@ -378,6 +371,25 @@
       <a class="cta-button" href="#contact">Get Started</a>
     </div>
   </header>
+
+  <!-- New Node Handler Section -->
+  <section id="node-handler">
+    <h2 class="section-title">Introducing Node Handler</h2>
+    <div class="content">
+      <p>🚀 Introducing Node Handler: The Ultimate Bot for Solana Validator Nodes! 🚀</p>
+      <p>We’re excited to announce the launch of Node Handler, your automated assistant for managing Solana validator nodes! Whether you're new to Solana or a seasoned pro, Node Handler makes it easier than ever to get your node up and running, with 24/7 monitoring, automated setup, and seamless key management.</p>
+      <p>Here’s what Node Handler can do:</p>
+      <ul>
+        <li>✅ Automated Deployment - Installs and configures all necessary software for your node.</li>
+        <li>✅ 24/7 Monitoring - Keeps an eye on your node’s performance and alerts you to any issues.</li>
+        <li>✅ Simplified Key Management - Manage your keys securely with ease.</li>
+        <li>✅ Guided Setup Process - Walks you through every step from installation to KYC and server provisioning.</li>
+      </ul>
+      <p>Start your Solana validator journey with ease. Let Node Handler take care of the tech side, so you can focus on growing your node!</p>
+      <p>🔗 <a href="https://telegra.ph/How-to-Set-Up-Your-Solana-Validator-Node-A-Step-by-Step-Guide-02-08" target="_blank">Get Started with Node Handler</a></p>
+      <p>🔗 <a href="http://t.me/node_handler_test_bot" target="_blank">To Node Handler Bot</a></p>
+    </div>
+  </section>
 
   <!-- Why Validator Section -->
   <section id="why-validator">
