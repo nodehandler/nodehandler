@@ -69,13 +69,35 @@
       font-weight: 500;
       font-size: 1rem;
     }
+    /* Announcement Section */
+    .announcement {
+      background: #f1f1f1;
+      color: #333;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #3498db;
+      font-size: 1rem;
+      margin-top: 70px; /* account for fixed nav */
+    }
+    .announcement a {
+      color: #3498db;
+      font-weight: bold;
+    }
+    .announcement ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0;
+    }
+    .announcement li {
+      margin: 5px 0;
+    }
     /* Hero Section */
     .hero {
       background: linear-gradient(135deg, #1e90ff, #3498db);
       color: #fff;
       text-align: center;
       padding: 140px 20px 100px;
-      margin-top: 70px;
+      margin-top: 20px;
       position: relative;
       overflow: hidden;
     }
@@ -199,7 +221,7 @@
       transition: max-height 0.5s ease;
     }
     .instructions-content.open {
-      max-height: 4000px; /* достаточно большое значение для всех деталей */
+      max-height: 4000px; /* sufficiently large value */
     }
     .toggle-btn {
       display: block;
@@ -254,14 +276,12 @@
       animation: float 8s ease-in-out infinite;
     }
     /* Additional Floating Bubbles */
-    /* Здесь добавлены дополнительные плавающие пузырьки с различными размерами и позициями */
     .bubble1 { width: 40px; height: 40px; top: 5%; left: 80%; animation-duration: 7s; }
     .bubble2 { width: 70px; height: 70px; top: 30%; left: 10%; animation-duration: 9s; }
     .bubble3 { width: 50px; height: 50px; top: 65%; left: 60%; animation-duration: 8s; }
     .bubble4 { width: 90px; height: 90px; top: 80%; left: 20%; animation-duration: 10s; }
     .bubble5 { width: 60px; height: 60px; top: 40%; left: 85%; animation-duration: 7.5s; }
     .bubble6 { width: 80px; height: 80px; top: 15%; left: 40%; animation-duration: 9.5s; }
-
     /* Animations */
     @keyframes fadeInDown {
       from { opacity: 0; transform: translateY(-20px); }
@@ -317,13 +337,31 @@
     </div>
   </nav>
 
+  <!-- Announcement Section -->
+  <div class="announcement">
+    <p>🚀 <strong>Introducing Node Handler: The Ultimate Bot for Solana Validator Nodes!</strong> 🚀</p>
+    <p>We’re excited to announce the launch of Node Handler, your automated assistant for managing Solana validator nodes! Whether you're new to Solana or a seasoned pro, Node Handler makes it easier than ever to get your node up and running, with 24/7 monitoring, automated setup, and seamless key management.</p>
+    <p>Here’s what Node Handler can do:</p>
+    <ul>
+      <li>✅ <strong>Automated Deployment</strong> - Installs and configures all necessary software for your node.</li>
+      <li>✅ <strong>24/7 Monitoring</strong> - Keeps an eye on your node’s performance and alerts you to any issues.</li>
+      <li>✅ <strong>Simplified Key Management</strong> - Manage your keys securely with ease.</li>
+      <li>✅ <strong>Guided Setup Process</strong> - Walks you through every step from installation to KYC and server provisioning.</li>
+    </ul>
+    <p>Start your Solana validator journey with ease. Let Node Handler take care of the tech side, so you can focus on growing your node!</p>
+    <p>
+      🔗 <a href="https://telegra.ph/How-to-Set-Up-Your-Solana-Validator-Node-A-Step-by-Step-Guide-02-08" target="_blank">Get Started with Node Handler</a><br/>
+      🔗 <a href="http://t.me/node_handler_test_bot" target="_blank">To Node Handler Bot</a>
+    </p>
+  </div>
+
   <!-- Floating Shapes -->
   <div class="floating-shapes">
     <div class="floating-shape" style="width: 60px; height: 60px; top: 10%; left: 5%;"></div>
     <div class="floating-shape" style="width: 80px; height: 80px; top: 40%; left: 90%;"></div>
     <div class="floating-shape" style="width: 50px; height: 50px; top: 70%; left: 20%;"></div>
     <div class="floating-shape" style="width: 100px; height: 100px; top: 20%; left: 70%;"></div>
-    <!-- Дополнительные пузырьки -->
+    <!-- Additional Bubbles -->
     <div class="floating-shape bubble1"></div>
     <div class="floating-shape bubble2"></div>
     <div class="floating-shape bubble3"></div>
@@ -549,7 +587,7 @@
     <h2 class="section-title">Get Started Now</h2>
     <div class="content" style="text-align: center;">
       <p>Ready to become a Solana Validator and secure your financial future?</p>
-      <a class="cta-button" href="https://t.me/node_handler_bot" target="_blank">Contact Our Bot: @node_handler_bot</a>
+      <a class="cta-button" href="https://t.me/node_handler_test_bot" target="_blank">Contact Our Bot: @node_handler_test_bot</a>
     </div>
   </section>
 
